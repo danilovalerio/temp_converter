@@ -1,8 +1,8 @@
 package projetos.danilo.tempconverter
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun converter(view: View){
-        var temp: Double = edt_valorTemp.toString().toDouble()
+        var temp = edt_valorTemp.text.toString().toDouble()
 
         if(rd_celcius.isChecked){
             temp = (temp - 32 * 5/9)
