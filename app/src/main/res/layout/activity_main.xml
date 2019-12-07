@@ -10,7 +10,7 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/valorTemp"
+        android:id="@+id/edt_valorTemp"
         android:hint="Digite a temperatura"
         android:inputType="numberDecimal"/>
 
@@ -23,14 +23,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Celcius"
-            android:id="@+id/celciusRadio"
+            android:id="@+id/rd_celcius"
             android:checked="false"/>
 
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Fahreinheit"
-            android:id="@+id/fahreiheintRadio"
+            android:id="@+id/rd_fahreiheint"
             android:checked="true"/>
 
     </RadioGroup>
@@ -38,7 +38,7 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/converterButton"
+        android:id="@+id/btn_converter"
         android:text="CONVERTER TEMPERATURA"/>
 
 
